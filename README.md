@@ -16,7 +16,7 @@ File list
 ::
 
     run_analysis.R            R script 
-    tidydata.csv              Submitted tidy data set with average of each variable for each activity and each subject
+    tidydata.txt              Submitted tidy data set with average of each variable for each activity and each subject
     extracted_measures.csv    Merged data set with mean and standard deviation of variables and descriptive names
     README.md                 This readme
     CodeBook.md               CodeBook describing variables and observations in tidydata.csv file
@@ -40,6 +40,6 @@ Launch instructions
 
 - Launch run_analysis.R script
 
-- extracted_measures.csv and tidydata.csv are created by the script inside the same folder.
+- extracted_measures.csv and tidydata.txt are created by the script inside the same folder.
 
 

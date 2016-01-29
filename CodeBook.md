@@ -1,13 +1,11 @@
 
 
 
-tidydata.csv
+tidydata.txt
 -----------
 
 Variables
 ---
-
-::
 
     Average of the Mean and standard deviation of the following signals:
     tBodyAcc-XYZ            Body acceleration measures
@@ -21,15 +19,11 @@ Variables
     activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
     subjects                Subject id
 
-::
-
 extracted_measures.csv
 -----------
 
 Variables
 ---
-
-::
 
     Mean and standard deviation of the following signals:
     tBodyAcc-XYZ            Body acceleration measures
@@ -42,8 +36,7 @@ Variables
     fBodyGyro-XYZ           FFT
     activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
     subjects                Subject id
-  
-::
+
 
 Program design run_analysis.R 
 -----------
@@ -78,4 +71,4 @@ Save the dataset in csv file => extracted_measures.csv
 
 - Group extracted_measures by activites and subjects
 and use each group to compute for each column the mean of each measure
-Write the tidy data to tidydata.csv file without the row numbers (row.names = FALSE)
+Write the tidy data to tidydata.txt file without the row numbers (row.names = FALSE)

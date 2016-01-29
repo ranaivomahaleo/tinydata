@@ -87,8 +87,8 @@ d <- group_by(extracted_measures, activities, subjects)
 mn <- summarise_each(d, funs(mean))
 
 #
-# Write the tidy data to tidydata.csv file without the row numbers (row.names = FALSE)
+# Write the tidy data to tidydata.txt file without the row numbers (row.names = FALSE)
 #
-write.csv(mn, file = "./tidydata.csv", row.names = FALSE)
+write.table(mn, file = "./tidydata.txt", row.names = FALSE)
 
 
