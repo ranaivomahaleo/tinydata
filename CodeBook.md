@@ -7,18 +7,19 @@ tidydata.csv
 Variables
 ---
 
-Average of the Mean and standard deviation of the following signals:
-tBodyAcc-XYZ            Body acceleration measures
-tGravityAcc-XYZ         Gravity acceleration measures
-tBodyAccJerk-XYZ        Jerk signals
-tBodyGyro-XYZ           Body gyro measure
-tBodyGyroJerk-XYZ       Jerk signals
-fBodyAcc-XYZ            FFT
-fBodyAccJerk-XYZ        FFT
-fBodyGyro-XYZ           FFT
-activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
-subjects                Subject id
-
+::
+  Average of the Mean and standard deviation of the following signals:
+  tBodyAcc-XYZ            Body acceleration measures
+  tGravityAcc-XYZ         Gravity acceleration measures
+  tBodyAccJerk-XYZ        Jerk signals
+  tBodyGyro-XYZ           Body gyro measure
+  tBodyGyroJerk-XYZ       Jerk signals
+  fBodyAcc-XYZ            FFT
+  fBodyAccJerk-XYZ        FFT
+  fBodyGyro-XYZ           FFT
+  activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
+  subjects                Subject id
+::
 
 extracted_measures.csv
 -----------
@@ -26,18 +27,19 @@ extracted_measures.csv
 Variables
 ---
 
-Mean and standard deviation of the following signals:
-tBodyAcc-XYZ            Body acceleration measures
-tGravityAcc-XYZ         Gravity acceleration measures
-tBodyAccJerk-XYZ        Jerk signals
-tBodyGyro-XYZ           Body gyro measure
-tBodyGyroJerk-XYZ       Jerk signals
-fBodyAcc-XYZ            FFT
-fBodyAccJerk-XYZ        FFT
-fBodyGyro-XYZ           FFT
-activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
-subjects                Subject id
-
+::
+  Mean and standard deviation of the following signals:
+  tBodyAcc-XYZ            Body acceleration measures
+  tGravityAcc-XYZ         Gravity acceleration measures
+  tBodyAccJerk-XYZ        Jerk signals
+  tBodyGyro-XYZ           Body gyro measure
+  tBodyGyroJerk-XYZ       Jerk signals
+  fBodyAcc-XYZ            FFT
+  fBodyAccJerk-XYZ        FFT
+  fBodyGyro-XYZ           FFT
+  activities              Activity type (labels) [WALKING|WALKING_UPSTAIRS|WALKING_DOWNSTAIRS|SITTING|STANDING|LAYING]
+  subjects                Subject id
+::
 
 Program design
 run_analysis.R 
