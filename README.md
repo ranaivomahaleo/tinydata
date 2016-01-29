@@ -13,12 +13,13 @@ and transform it with descriptive name of variables and obsevations.
 
 File list
 -----------
-run_analysis.R            R script 
-tidydata.csv              Submitted tidy data set with average of each variable for each activity and each subject
-extracted_measures.csv    Merged data set with mean and standard deviation of variables and descriptive names
-README.md                 This readme
-CodeBook.md               CodeBook describing variables and observations in tidydata.csv file
-
+::
+    run_analysis.R            R script 
+    tidydata.csv              Submitted tidy data set with average of each variable for each activity and each subject
+    extracted_measures.csv    Merged data set with mean and standard deviation of variables and descriptive names
+    README.md                 This readme
+    CodeBook.md               CodeBook describing variables and observations in tidydata.csv file
+::
 
 Setup instructions
 -----------
