@@ -1,9 +1,11 @@
 
 -----------
 Getting and Cleaning data project
+-----------
+
 2016/01/29
 Author: Ranaivo Razakanirina <ranaivomahaleo@gmail.com>
------------
+
 
 The goal of this project is to merge a training and test data set
 and transform it with descriptive name of variables and obsevations.
